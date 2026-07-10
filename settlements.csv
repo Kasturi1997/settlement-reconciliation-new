@@ -1,0 +1,308 @@
+settlement_id,merchant_id,merchant_name,settlement_date,processor_gross_amount,processor_deduction_amount,actual_settlement_amount,settlement_status,processor_adjustment_code,processor_note
+SET50001,M001,Apex Electronics,2026-04-03,34437.98,1000.46,33438.54,Settled,MATCHED,Processor amount matches internal expectation.
+SET50002,M001,Apex Electronics,2026-04-04,89619.96,2312.63,87309.25,Settled,MATCHED,Processor amount matches internal expectation.
+SET50003,M001,Apex Electronics,2026-04-05,89126.64,2407.04,86721.53,Settled,MATCHED,Processor amount matches internal expectation.
+SET50004,M001,Apex Electronics,2026-04-06,115990.16,2946.72,113045.12,Settled,MATCHED,Processor amount matches internal expectation.
+SET50005,M001,Apex Electronics,2026-04-07,35363.15,991.71,34372.46,Settled,MATCHED,Processor amount matches internal expectation.
+SET50006,M001,Apex Electronics,2026-04-08,78296.16,11192.81,67103.59,Settled,MATCHED,Processor amount matches internal expectation.
+SET50007,M001,Apex Electronics,2026-04-09,66680.53,1804.45,64876.74,Settled,MATCHED,Processor amount matches internal expectation.
+SET50008,M001,Apex Electronics,2026-04-10,93858.67,3144.06,90716.44,Settled,MATCHED,Processor amount matches internal expectation.
+SET50009,M001,Apex Electronics,2026-04-11,41012.22,5355.27,35656.95,Settled,MATCHED,Processor amount matches internal expectation.
+SET50010,M001,Apex Electronics,2026-04-12,93841.81,9923.3,83919.13,Settled,MATCHED,Processor amount matches internal expectation.
+SET50011,M001,Apex Electronics,2026-04-13,102414.82,2778.03,99637.95,Settled,MATCHED,Processor amount matches internal expectation.
+SET50012,M001,Apex Electronics,2026-04-14,40588.62,1224.77,39363.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50013,M001,Apex Electronics,2026-04-15,91159.26,2696.62,88462.64,Settled,MATCHED,Processor amount matches internal expectation.
+SET50014,M001,Apex Electronics,2026-04-16,69868.81,69868.81,0.0,Delayed,PAYOUT_DELAY,Payout delayed due to processor settlement hold.
+SET50015,M001,Apex Electronics,2026-04-17,27485.29,6288.58,21196.71,Settled,MATCHED,Processor amount matches internal expectation.
+SET50016,M001,Apex Electronics,2026-04-18,30209.56,714.48,29495.08,Settled,MATCHED,Processor amount matches internal expectation.
+SET50017,M001,Apex Electronics,2026-04-19,122450.49,3666.07,118785.97,Settled,MATCHED,Processor amount matches internal expectation.
+SET50018,M001,Apex Electronics,2026-04-20,22304.19,6600.81,15703.38,Settled,MATCHED,Processor amount matches internal expectation.
+SET50019,M001,Apex Electronics,2026-04-21,27448.87,12391.88,15057.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50020,M001,Apex Electronics,2026-04-22,121349.85,3769.92,117579.93,Settled,MATCHED,Processor amount matches internal expectation.
+SET50021,M001,Apex Electronics,2026-04-23,84302.13,2355.35,81946.78,Settled,MATCHED,Processor amount matches internal expectation.
+SET50022,M001,Apex Electronics,2026-04-24,36882.39,1156.35,35727.2,Settled,MATCHED,Processor amount matches internal expectation.
+SET50023,M001,Apex Electronics,2026-04-25,67207.88,2007.93,65199.95,Settled,MATCHED,Processor amount matches internal expectation.
+SET50024,M001,Apex Electronics,2026-04-26,91143.5,12512.65,78632.6,Settled,MATCHED,Processor amount matches internal expectation.
+SET50025,M001,Apex Electronics,2026-04-27,41546.61,22112.64,19433.97,Settled,MATCHED,Processor amount matches internal expectation.
+SET50026,M001,Apex Electronics,2026-04-28,58699.5,1627.43,57072.33,Settled,MATCHED,Processor amount matches internal expectation.
+SET50027,M001,Apex Electronics,2026-04-29,90426.28,30375.91,60050.37,Settled,MATCHED,Processor amount matches internal expectation.
+SET50028,M001,Apex Electronics,2026-04-30,41475.74,1206.9,40268.84,Settled,MATCHED,Processor amount matches internal expectation.
+SET50029,M001,Apex Electronics,2026-05-01,48693.42,1601.86,47091.56,Settled,MATCHED,Processor amount matches internal expectation.
+SET50030,M001,Apex Electronics,2026-05-02,24010.81,19741.09,4269.72,Settled,MATCHED,Processor amount matches internal expectation.
+SET50031,M001,Apex Electronics,2026-05-03,123182.28,10640.8,112542.72,Settled,MATCHED,Processor amount matches internal expectation.
+SET50032,M001,Apex Electronics,2026-05-04,64945.51,1533.0,63412.51,Settled,MATCHED,Processor amount matches internal expectation.
+SET50033,M001,Apex Electronics,2026-05-05,96112.62,6045.22,90067.4,Settled,MATCHED,Processor amount matches internal expectation.
+SET50034,M001,Apex Electronics,2026-05-06,72415.33,25103.23,47313.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50035,M001,Apex Electronics,2026-05-07,38406.65,957.43,37449.22,Settled,MATCHED,Processor amount matches internal expectation.
+SET50036,M001,Apex Electronics,2026-05-10,0.0,8901.38,-8900.37,Settled,MATCHED,Processor amount matches internal expectation.
+SET50037,M001,Apex Electronics,2026-05-13,0.0,7600.63,-7600.63,Settled,MATCHED,Processor amount matches internal expectation.
+SET50038,M002,FreshBasket Foods,2026-04-02,14656.9,305.46,14351.71,Settled,MATCHED,Processor amount matches internal expectation.
+SET50039,M002,FreshBasket Foods,2026-04-03,7015.26,176.87,6838.39,Settled,MATCHED,Processor amount matches internal expectation.
+SET50040,M002,FreshBasket Foods,2026-04-04,8780.6,207.26,8573.34,Settled,MATCHED,Processor amount matches internal expectation.
+SET50041,M002,FreshBasket Foods,2026-04-05,12245.73,328.42,11917.92,Settled,MATCHED,Processor amount matches internal expectation.
+SET50042,M002,FreshBasket Foods,2026-04-06,12187.29,303.13,11884.47,Settled,MATCHED,Processor amount matches internal expectation.
+SET50043,M002,FreshBasket Foods,2026-04-07,9356.34,915.12,8441.22,Settled,MATCHED,Processor amount matches internal expectation.
+SET50044,M002,FreshBasket Foods,2026-04-08,5531.02,118.4,5414.36,Settled,MATCHED,Processor amount matches internal expectation.
+SET50045,M002,FreshBasket Foods,2026-04-09,10378.86,225.8,10153.47,Settled,MATCHED,Processor amount matches internal expectation.
+SET50046,M002,FreshBasket Foods,2026-04-10,13185.45,318.75,12866.7,Settled,MATCHED,Processor amount matches internal expectation.
+SET50047,M002,FreshBasket Foods,2026-04-11,8213.51,314.66,7898.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50048,M002,FreshBasket Foods,2026-04-12,5200.89,99.65,5101.58,Settled,MATCHED,Processor amount matches internal expectation.
+SET50049,M002,FreshBasket Foods,2026-04-13,4862.37,127.58,4735.89,Settled,MATCHED,Processor amount matches internal expectation.
+SET50050,M002,FreshBasket Foods,2026-04-14,5161.57,129.71,5031.86,Settled,MATCHED,Processor amount matches internal expectation.
+SET50051,M002,FreshBasket Foods,2026-04-15,8953.79,830.4,8123.39,Settled,MATCHED,Processor amount matches internal expectation.
+SET50052,M002,FreshBasket Foods,2026-04-16,11196.98,3035.85,8161.97,Settled,MATCHED,Processor amount matches internal expectation.
+SET50053,M002,FreshBasket Foods,2026-04-17,7963.8,188.32,7777.35,Settled,MATCHED,Processor amount matches internal expectation.
+SET50054,M002,FreshBasket Foods,2026-04-18,14995.51,412.88,14582.63,Settled,MATCHED,Processor amount matches internal expectation.
+SET50055,M002,FreshBasket Foods,2026-04-19,14493.6,989.6,13504.0,Settled,MATCHED,Processor amount matches internal expectation.
+SET50056,M002,FreshBasket Foods,2026-04-20,410.66,11.87,400.48,Settled,MATCHED,Processor amount matches internal expectation.
+SET50057,M002,FreshBasket Foods,2026-04-21,5658.15,160.07,5498.08,Settled,MATCHED,Processor amount matches internal expectation.
+SET50058,M002,FreshBasket Foods,2026-04-22,8219.34,164.5,8056.8,Settled,MATCHED,Processor amount matches internal expectation.
+SET50059,M002,FreshBasket Foods,2026-04-23,14114.92,3107.37,11007.55,Settled,MATCHED,Processor amount matches internal expectation.
+SET50060,M002,FreshBasket Foods,2026-04-24,15277.28,1375.5,13901.78,Settled,MATCHED,Processor amount matches internal expectation.
+SET50061,M002,FreshBasket Foods,2026-04-25,5418.51,1330.8,4087.71,Settled,MATCHED,Processor amount matches internal expectation.
+SET50062,M002,FreshBasket Foods,2026-04-26,22008.01,589.7,21418.31,Settled,GST_DIFF,GST on processing fee differs from internal tax calculation.
+SET50063,M002,FreshBasket Foods,2026-04-27,6771.87,152.85,6619.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50064,M002,FreshBasket Foods,2026-04-28,15964.69,394.47,15571.0,Settled,MATCHED,Processor amount matches internal expectation.
+SET50065,M002,FreshBasket Foods,2026-04-29,11314.63,247.57,11067.06,Settled,MATCHED,Processor amount matches internal expectation.
+SET50066,M002,FreshBasket Foods,2026-04-30,6730.8,1392.58,5339.1,Settled,MATCHED,Processor amount matches internal expectation.
+SET50067,M002,FreshBasket Foods,2026-05-01,6242.84,161.73,6081.11,Settled,MATCHED,Processor amount matches internal expectation.
+SET50068,M002,FreshBasket Foods,2026-05-02,8560.47,194.91,8366.26,Settled,MATCHED,Processor amount matches internal expectation.
+SET50069,M002,FreshBasket Foods,2026-05-03,9458.55,1376.16,8084.34,Settled,MATCHED,Processor amount matches internal expectation.
+SET50070,M002,FreshBasket Foods,2026-05-04,18150.1,2026.05,16125.71,Settled,MATCHED,Processor amount matches internal expectation.
+SET50071,M002,FreshBasket Foods,2026-05-05,4952.26,215.08,4737.18,Settled,MATCHED,Processor amount matches internal expectation.
+SET50072,M002,FreshBasket Foods,2026-05-06,3092.94,71.03,3021.91,Settled,MATCHED,Processor amount matches internal expectation.
+SET50073,M002,FreshBasket Foods,2026-05-08,0.0,2596.77,-2595.76,Settled,MATCHED,Processor amount matches internal expectation.
+SET50074,M002,FreshBasket Foods,2026-05-09,0.0,1220.22,-1220.22,Settled,MATCHED,Processor amount matches internal expectation.
+SET50075,M002,FreshBasket Foods,2026-05-11,0.0,1907.46,-1906.29,Settled,MATCHED,Processor amount matches internal expectation.
+SET50076,M003,UrbanStyle Apparel,2026-04-03,19205.26,575.52,18629.74,Settled,MATCHED,Processor amount matches internal expectation.
+SET50077,M003,UrbanStyle Apparel,2026-04-04,42599.18,5936.17,36663.01,Settled,MATCHED,Processor amount matches internal expectation.
+SET50078,M003,UrbanStyle Apparel,2026-04-05,20354.81,617.76,19737.05,Settled,MATCHED,Processor amount matches internal expectation.
+SET50079,M003,UrbanStyle Apparel,2026-04-06,29749.24,3661.46,26087.78,Settled,MATCHED,Processor amount matches internal expectation.
+SET50080,M003,UrbanStyle Apparel,2026-04-07,19397.04,664.35,18732.69,Settled,MATCHED,Processor amount matches internal expectation.
+SET50081,M003,UrbanStyle Apparel,2026-04-08,19703.2,621.35,19081.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50082,M003,UrbanStyle Apparel,2026-04-09,42184.24,1349.71,40835.8,Settled,MATCHED,Processor amount matches internal expectation.
+SET50083,M003,UrbanStyle Apparel,2026-04-10,16030.14,417.51,15612.63,Settled,MATCHED,Processor amount matches internal expectation.
+SET50084,M003,UrbanStyle Apparel,2026-04-11,36641.6,1009.48,35632.12,Settled,MATCHED,Processor amount matches internal expectation.
+SET50085,M003,UrbanStyle Apparel,2026-04-12,36366.12,1081.46,35284.66,Settled,MATCHED,Processor amount matches internal expectation.
+SET50086,M003,UrbanStyle Apparel,2026-04-13,28696.13,792.69,27903.44,Settled,MATCHED,Processor amount matches internal expectation.
+SET50087,M003,UrbanStyle Apparel,2026-04-14,48605.75,8432.74,40173.01,Settled,MATCHED,Processor amount matches internal expectation.
+SET50088,M003,UrbanStyle Apparel,2026-04-15,34934.92,1142.73,33792.19,Settled,MATCHED,Processor amount matches internal expectation.
+SET50089,M003,UrbanStyle Apparel,2026-04-16,26853.83,5158.03,21695.8,Settled,MATCHED,Processor amount matches internal expectation.
+SET50090,M003,UrbanStyle Apparel,2026-04-17,34751.5,34751.5,0.0,Delayed,PAYOUT_DELAY,Payout delayed due to processor settlement hold.
+SET50091,M003,UrbanStyle Apparel,2026-04-18,44999.4,2940.57,42058.83,Settled,REFUND_ADJ,Processor deducted a late refund adjustment not present in the internal refund file cutoff.
+SET50092,M003,UrbanStyle Apparel,2026-04-19,24363.02,4751.01,19612.45,Settled,MATCHED,Processor amount matches internal expectation.
+SET50093,M003,UrbanStyle Apparel,2026-04-20,12347.45,364.95,11982.5,Settled,MATCHED,Processor amount matches internal expectation.
+SET50094,M003,UrbanStyle Apparel,2026-04-21,45402.58,1379.88,44023.82,Settled,MATCHED,Processor amount matches internal expectation.
+SET50095,M003,UrbanStyle Apparel,2026-04-22,35676.42,1615.09,34062.76,Settled,MATCHED,Processor amount matches internal expectation.
+SET50096,M003,UrbanStyle Apparel,2026-04-23,56871.66,4228.97,52643.07,Settled,MATCHED,Processor amount matches internal expectation.
+SET50097,M003,UrbanStyle Apparel,2026-04-24,34351.68,1092.57,33259.11,Settled,MATCHED,Processor amount matches internal expectation.
+SET50098,M003,UrbanStyle Apparel,2026-04-25,42650.91,2834.39,39816.74,Settled,MATCHED,Processor amount matches internal expectation.
+SET50099,M003,UrbanStyle Apparel,2026-04-26,16636.27,493.92,16142.35,Settled,MATCHED,Processor amount matches internal expectation.
+SET50100,M003,UrbanStyle Apparel,2026-04-27,32231.92,8036.57,24195.35,Settled,MATCHED,Processor amount matches internal expectation.
+SET50101,M003,UrbanStyle Apparel,2026-04-28,26044.67,727.63,25317.04,Settled,MATCHED,Processor amount matches internal expectation.
+SET50102,M003,UrbanStyle Apparel,2026-04-29,34095.89,1008.68,33087.21,Settled,MATCHED,Processor amount matches internal expectation.
+SET50103,M003,UrbanStyle Apparel,2026-04-30,35751.32,3647.21,32104.11,Settled,MATCHED,Processor amount matches internal expectation.
+SET50104,M003,UrbanStyle Apparel,2026-05-01,12441.09,403.81,12038.6,Settled,MATCHED,Processor amount matches internal expectation.
+SET50105,M003,UrbanStyle Apparel,2026-05-02,15207.01,7828.36,7379.61,Settled,MATCHED,Processor amount matches internal expectation.
+SET50106,M003,UrbanStyle Apparel,2026-05-03,28714.15,869.66,27844.49,Settled,MATCHED,Processor amount matches internal expectation.
+SET50107,M003,UrbanStyle Apparel,2026-05-04,15658.67,13480.73,2177.94,Settled,MATCHED,Processor amount matches internal expectation.
+SET50108,M003,UrbanStyle Apparel,2026-05-05,25663.77,6530.41,19133.36,Settled,MATCHED,Processor amount matches internal expectation.
+SET50109,M003,UrbanStyle Apparel,2026-05-06,34870.46,3557.3,31314.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50110,M003,UrbanStyle Apparel,2026-05-07,28767.36,3164.64,25603.49,Settled,MATCHED,Processor amount matches internal expectation.
+SET50111,M003,UrbanStyle Apparel,2026-05-08,0.0,2228.63,-2228.42,Settled,MATCHED,Processor amount matches internal expectation.
+SET50112,M003,UrbanStyle Apparel,2026-05-09,0.0,7742.61,-7741.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50113,M003,UrbanStyle Apparel,2026-05-12,0.0,3658.07,-3657.74,Settled,MATCHED,Processor amount matches internal expectation.
+SET50114,M004,SkillBridge Learning,2026-04-04,24740.48,681.39,24059.09,Settled,MATCHED,Processor amount matches internal expectation.
+SET50115,M004,SkillBridge Learning,2026-04-05,14357.83,377.21,13980.62,Settled,MATCHED,Processor amount matches internal expectation.
+SET50116,M004,SkillBridge Learning,2026-04-06,44130.55,2161.83,41968.72,Settled,MATCHED,Processor amount matches internal expectation.
+SET50117,M004,SkillBridge Learning,2026-04-07,82024.29,2048.24,79976.05,Settled,MATCHED,Processor amount matches internal expectation.
+SET50118,M004,SkillBridge Learning,2026-04-08,70153.92,1719.47,68434.45,Settled,MATCHED,Processor amount matches internal expectation.
+SET50119,M004,SkillBridge Learning,2026-04-09,81061.28,2306.07,78755.21,Settled,GST_DIFF,GST on processing fee differs from internal tax calculation.
+SET50120,M004,SkillBridge Learning,2026-04-10,49277.25,1258.51,48018.74,Settled,MATCHED,Processor amount matches internal expectation.
+SET50121,M004,SkillBridge Learning,2026-04-11,36457.22,940.87,35517.52,Settled,MATCHED,Processor amount matches internal expectation.
+SET50122,M004,SkillBridge Learning,2026-04-12,58374.04,1386.99,56987.05,Settled,MATCHED,Processor amount matches internal expectation.
+SET50123,M004,SkillBridge Learning,2026-04-13,17787.79,5590.21,12197.58,Settled,MATCHED,Processor amount matches internal expectation.
+SET50124,M004,SkillBridge Learning,2026-04-14,44565.85,12787.99,31777.86,Settled,MATCHED,Processor amount matches internal expectation.
+SET50125,M004,SkillBridge Learning,2026-04-15,33079.79,849.99,32229.8,Settled,MATCHED,Processor amount matches internal expectation.
+SET50126,M004,SkillBridge Learning,2026-04-16,40442.41,1059.71,39382.7,Settled,MATCHED,Processor amount matches internal expectation.
+SET50127,M004,SkillBridge Learning,2026-04-17,62568.92,30336.35,32233.67,Settled,MATCHED,Processor amount matches internal expectation.
+SET50128,M004,SkillBridge Learning,2026-04-18,102001.64,17893.24,84108.4,Settled,MATCHED,Processor amount matches internal expectation.
+SET50129,M004,SkillBridge Learning,2026-04-19,10951.75,3021.7,7930.62,Settled,MATCHED,Processor amount matches internal expectation.
+SET50130,M004,SkillBridge Learning,2026-04-20,30792.92,799.01,29995.68,Settled,MATCHED,Processor amount matches internal expectation.
+SET50131,M004,SkillBridge Learning,2026-04-21,94470.58,7111.85,87359.67,Settled,MATCHED,Processor amount matches internal expectation.
+SET50132,M004,SkillBridge Learning,2026-04-22,44361.86,1211.97,43149.89,Settled,MATCHED,Processor amount matches internal expectation.
+SET50133,M004,SkillBridge Learning,2026-04-23,25381.25,733.9,24648.22,Settled,MATCHED,Processor amount matches internal expectation.
+SET50134,M004,SkillBridge Learning,2026-04-24,96392.23,5392.51,90999.72,Settled,CAPTURE_REVERSAL,One captured transaction was reversed by gateway before payout.
+SET50135,M004,SkillBridge Learning,2026-04-25,21195.16,567.19,20628.84,Settled,MATCHED,Processor amount matches internal expectation.
+SET50136,M004,SkillBridge Learning,2026-04-26,38272.09,1085.14,37186.95,Settled,MATCHED,Processor amount matches internal expectation.
+SET50137,M004,SkillBridge Learning,2026-04-27,78084.05,2109.83,75974.22,Settled,MATCHED,Processor amount matches internal expectation.
+SET50138,M004,SkillBridge Learning,2026-04-28,26916.08,823.85,26093.76,Settled,MATCHED,Processor amount matches internal expectation.
+SET50139,M004,SkillBridge Learning,2026-04-29,30945.05,10326.06,20620.82,Settled,MATCHED,Processor amount matches internal expectation.
+SET50140,M004,SkillBridge Learning,2026-04-30,9802.61,248.16,9555.21,Settled,MATCHED,Processor amount matches internal expectation.
+SET50141,M004,SkillBridge Learning,2026-05-01,49307.77,1063.14,48244.63,Settled,MATCHED,Processor amount matches internal expectation.
+SET50142,M004,SkillBridge Learning,2026-05-02,67023.32,2542.49,64480.83,Settled,MATCHED,Processor amount matches internal expectation.
+SET50143,M004,SkillBridge Learning,2026-05-03,46589.11,1225.81,45363.3,Settled,MATCHED,Processor amount matches internal expectation.
+SET50144,M004,SkillBridge Learning,2026-05-04,40440.14,1566.02,38874.83,Settled,MATCHED,Processor amount matches internal expectation.
+SET50145,M004,SkillBridge Learning,2026-05-05,60626.49,1458.15,59169.83,Settled,MATCHED,Processor amount matches internal expectation.
+SET50146,M004,SkillBridge Learning,2026-05-06,80897.48,1842.37,79055.11,Settled,MATCHED,Processor amount matches internal expectation.
+SET50147,M004,SkillBridge Learning,2026-05-07,34463.67,841.76,33622.66,Settled,MATCHED,Processor amount matches internal expectation.
+SET50148,M004,SkillBridge Learning,2026-05-08,51939.79,1507.37,50432.56,Settled,MATCHED,Processor amount matches internal expectation.
+SET50149,M004,SkillBridge Learning,2026-05-09,0.0,1541.9,-1541.0,Settled,MATCHED,Processor amount matches internal expectation.
+SET50150,M004,SkillBridge Learning,2026-05-11,0.0,12145.82,-12145.82,Settled,MATCHED,Processor amount matches internal expectation.
+SET50151,M004,SkillBridge Learning,2026-05-12,0.0,5625.16,-5624.08,Settled,MATCHED,Processor amount matches internal expectation.
+SET50152,M004,SkillBridge Learning,2026-05-18,0.0,2911.51,-2911.51,Settled,MATCHED,Processor amount matches internal expectation.
+SET50153,M005,MediQuick Pharmacy,2026-04-02,35564.27,650.89,34913.5,Settled,MATCHED,Processor amount matches internal expectation.
+SET50154,M005,MediQuick Pharmacy,2026-04-03,28076.59,565.85,27510.74,Settled,MATCHED,Processor amount matches internal expectation.
+SET50155,M005,MediQuick Pharmacy,2026-04-04,27917.17,612.05,27305.12,Settled,MATCHED,Processor amount matches internal expectation.
+SET50156,M005,MediQuick Pharmacy,2026-04-05,21023.92,357.31,20666.61,Settled,MATCHED,Processor amount matches internal expectation.
+SET50157,M005,MediQuick Pharmacy,2026-04-06,7000.09,150.79,6851.03,Settled,MATCHED,Processor amount matches internal expectation.
+SET50158,M005,MediQuick Pharmacy,2026-04-07,7911.13,203.49,7707.99,Settled,MATCHED,Processor amount matches internal expectation.
+SET50159,M005,MediQuick Pharmacy,2026-04-08,10774.03,233.82,10540.21,Settled,MATCHED,Processor amount matches internal expectation.
+SET50160,M005,MediQuick Pharmacy,2026-04-09,13179.44,249.02,12930.42,Settled,MATCHED,Processor amount matches internal expectation.
+SET50161,M005,MediQuick Pharmacy,2026-04-10,15124.98,916.54,14208.44,Settled,MATCHED,Processor amount matches internal expectation.
+SET50162,M005,MediQuick Pharmacy,2026-04-11,20358.77,425.54,19934.22,Settled,MATCHED,Processor amount matches internal expectation.
+SET50163,M005,MediQuick Pharmacy,2026-04-12,11795.07,212.11,11582.96,Settled,MATCHED,Processor amount matches internal expectation.
+SET50164,M005,MediQuick Pharmacy,2026-04-13,28849.39,609.64,28241.18,Settled,MATCHED,Processor amount matches internal expectation.
+SET50165,M005,MediQuick Pharmacy,2026-04-14,22305.81,477.86,21827.95,Settled,MATCHED,Processor amount matches internal expectation.
+SET50166,M005,MediQuick Pharmacy,2026-04-15,29347.91,2954.39,26394.26,Settled,MATCHED,Processor amount matches internal expectation.
+SET50167,M005,MediQuick Pharmacy,2026-04-16,11117.17,5982.55,5136.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50168,M005,MediQuick Pharmacy,2026-04-17,18774.12,408.25,18366.83,Settled,MATCHED,Processor amount matches internal expectation.
+SET50169,M005,MediQuick Pharmacy,2026-04-18,19812.4,3202.84,16610.83,Settled,MATCHED,Processor amount matches internal expectation.
+SET50170,M005,MediQuick Pharmacy,2026-04-19,8871.44,9446.69,-575.25,Settled,MATCHED,Processor amount matches internal expectation.
+SET50171,M005,MediQuick Pharmacy,2026-04-20,21368.63,437.61,20931.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50172,M005,MediQuick Pharmacy,2026-04-21,18433.47,315.03,18118.76,Settled,MATCHED,Processor amount matches internal expectation.
+SET50173,M005,MediQuick Pharmacy,2026-04-22,12409.67,3073.32,9336.35,Settled,MATCHED,Processor amount matches internal expectation.
+SET50174,M005,MediQuick Pharmacy,2026-04-23,29549.7,2620.88,26929.55,Settled,MATCHED,Processor amount matches internal expectation.
+SET50175,M005,MediQuick Pharmacy,2026-04-24,5752.02,138.16,5614.92,Settled,MATCHED,Processor amount matches internal expectation.
+SET50176,M005,MediQuick Pharmacy,2026-04-25,29049.9,625.1,28425.53,Settled,MATCHED,Processor amount matches internal expectation.
+SET50177,M005,MediQuick Pharmacy,2026-04-26,15338.04,316.66,15022.19,Settled,MATCHED,Processor amount matches internal expectation.
+SET50178,M005,MediQuick Pharmacy,2026-04-27,28710.14,602.44,28108.24,Settled,MATCHED,Processor amount matches internal expectation.
+SET50179,M005,MediQuick Pharmacy,2026-04-28,35337.4,652.57,34685.79,Settled,MATCHED,Processor amount matches internal expectation.
+SET50180,M005,MediQuick Pharmacy,2026-04-29,20854.62,482.8,20371.82,Settled,MATCHED,Processor amount matches internal expectation.
+SET50181,M005,MediQuick Pharmacy,2026-04-30,22182.24,439.7,21743.72,Settled,MATCHED,Processor amount matches internal expectation.
+SET50182,M005,MediQuick Pharmacy,2026-05-01,4013.14,106.55,3906.86,Settled,MATCHED,Processor amount matches internal expectation.
+SET50183,M005,MediQuick Pharmacy,2026-05-02,30657.6,4838.16,25820.98,Settled,MATCHED,Processor amount matches internal expectation.
+SET50184,M005,MediQuick Pharmacy,2026-05-03,14824.48,267.78,14556.7,Settled,MATCHED,Processor amount matches internal expectation.
+SET50185,M005,MediQuick Pharmacy,2026-05-04,22952.31,527.93,22424.38,Settled,MATCHED,Processor amount matches internal expectation.
+SET50186,M005,MediQuick Pharmacy,2026-05-05,39798.55,830.06,38968.49,Settled,MATCHED,Processor amount matches internal expectation.
+SET50187,M005,MediQuick Pharmacy,2026-05-06,18875.92,6180.07,12695.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50188,M005,MediQuick Pharmacy,2026-05-10,0.0,1661.71,-1661.71,Settled,MATCHED,Processor amount matches internal expectation.
+SET50189,M005,MediQuick Pharmacy,2026-05-11,0.0,3733.82,-3733.82,Settled,MATCHED,Processor amount matches internal expectation.
+SET50190,M005,MediQuick Pharmacy,2026-05-14,0.0,3511.19,-3511.19,Settled,MATCHED,Processor amount matches internal expectation.
+SET50191,M005,MediQuick Pharmacy,2026-05-16,0.0,288.0,-286.18,Settled,MATCHED,Processor amount matches internal expectation.
+SET50192,M005,MediQuick Pharmacy,2026-05-18,0.0,6170.48,-6170.48,Settled,MATCHED,Processor amount matches internal expectation.
+SET50193,M006,TravelNest,2026-04-04,38139.58,1082.01,37057.57,Settled,MATCHED,Processor amount matches internal expectation.
+SET50194,M006,TravelNest,2026-04-05,56619.61,2005.05,54614.56,Settled,MATCHED,Processor amount matches internal expectation.
+SET50195,M006,TravelNest,2026-04-06,33534.51,1069.81,32464.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50196,M006,TravelNest,2026-04-07,60165.37,1993.07,58172.6,Settled,MATCHED,Processor amount matches internal expectation.
+SET50197,M006,TravelNest,2026-04-08,79841.56,2562.6,77280.24,Settled,MATCHED,Processor amount matches internal expectation.
+SET50198,M006,TravelNest,2026-04-09,39000.86,1275.3,37727.36,Settled,MATCHED,Processor amount matches internal expectation.
+SET50199,M006,TravelNest,2026-04-10,53772.5,9808.75,43963.75,Settled,MATCHED,Processor amount matches internal expectation.
+SET50200,M006,TravelNest,2026-04-11,92516.78,13483.56,79034.87,Settled,MATCHED,Processor amount matches internal expectation.
+SET50201,M006,TravelNest,2026-04-12,90938.25,2904.11,88034.29,Settled,MATCHED,Processor amount matches internal expectation.
+SET50202,M006,TravelNest,2026-04-13,58644.36,2040.89,56603.61,Settled,MATCHED,Processor amount matches internal expectation.
+SET50203,M006,TravelNest,2026-04-14,82283.35,2777.92,79506.48,Settled,MATCHED,Processor amount matches internal expectation.
+SET50204,M006,TravelNest,2026-04-15,69922.39,2111.07,67811.32,Settled,MATCHED,Processor amount matches internal expectation.
+SET50205,M006,TravelNest,2026-04-16,76102.07,2300.99,73803.04,Settled,MATCHED,Processor amount matches internal expectation.
+SET50206,M006,TravelNest,2026-04-17,79502.82,2560.05,76942.77,Settled,MATCHED,Processor amount matches internal expectation.
+SET50207,M006,TravelNest,2026-04-18,67511.63,30870.52,36642.82,Settled,MATCHED,Processor amount matches internal expectation.
+SET50208,M006,TravelNest,2026-04-19,49313.93,1567.17,47746.86,Settled,MATCHED,Processor amount matches internal expectation.
+SET50209,M006,TravelNest,2026-04-20,36755.14,17095.72,19659.5,Settled,MATCHED,Processor amount matches internal expectation.
+SET50210,M006,TravelNest,2026-04-21,47506.55,1444.4,46062.15,Settled,MATCHED,Processor amount matches internal expectation.
+SET50211,M006,TravelNest,2026-04-22,93031.61,3056.8,89975.91,Settled,MATCHED,Processor amount matches internal expectation.
+SET50212,M006,TravelNest,2026-04-23,97886.68,18721.21,79166.37,Settled,MATCHED,Processor amount matches internal expectation.
+SET50213,M006,TravelNest,2026-04-24,43311.82,3173.51,40138.31,Settled,MATCHED,Processor amount matches internal expectation.
+SET50214,M006,TravelNest,2026-04-25,52485.58,1692.95,50792.63,Settled,MATCHED,Processor amount matches internal expectation.
+SET50215,M006,TravelNest,2026-04-26,58268.85,1804.95,56463.9,Settled,MATCHED,Processor amount matches internal expectation.
+SET50216,M006,TravelNest,2026-04-27,75470.99,2391.34,74545.53,Settled,PRIOR_RELEASE,Prior held settlement released in the current payout cycle.
+SET50217,M006,TravelNest,2026-04-28,25637.31,817.4,24820.84,Settled,MATCHED,Processor amount matches internal expectation.
+SET50218,M006,TravelNest,2026-04-29,90876.02,3064.2,87813.27,Settled,MATCHED,Processor amount matches internal expectation.
+SET50219,M006,TravelNest,2026-04-30,44466.55,1578.16,42888.74,Settled,MATCHED,Processor amount matches internal expectation.
+SET50220,M006,TravelNest,2026-05-01,41944.05,1437.72,40506.44,Settled,MATCHED,Processor amount matches internal expectation.
+SET50221,M006,TravelNest,2026-05-02,40066.25,1317.09,38749.16,Settled,MATCHED,Processor amount matches internal expectation.
+SET50222,M006,TravelNest,2026-05-03,97488.51,9899.09,87590.92,Settled,MATCHED,Processor amount matches internal expectation.
+SET50223,M006,TravelNest,2026-05-04,42351.49,4293.66,38057.83,Settled,CHARGEBACK_ADJ,Chargeback debit applied after dispute update from issuing bank.
+SET50224,M006,TravelNest,2026-05-05,42015.4,1302.69,40712.71,Settled,MATCHED,Processor amount matches internal expectation.
+SET50225,M006,TravelNest,2026-05-06,58605.43,1935.12,56670.47,Settled,MATCHED,Processor amount matches internal expectation.
+SET50226,M006,TravelNest,2026-05-07,105719.98,15983.7,89736.28,Settled,MATCHED,Processor amount matches internal expectation.
+SET50227,M006,TravelNest,2026-05-08,30530.69,1001.21,29530.01,Settled,MATCHED,Processor amount matches internal expectation.
+SET50228,M006,TravelNest,2026-05-09,0.0,3891.4,-3891.4,Settled,MATCHED,Processor amount matches internal expectation.
+SET50229,M006,TravelNest,2026-05-14,0.0,2767.36,-2767.36,Settled,MATCHED,Processor amount matches internal expectation.
+SET50230,M007,HomeEase Services,2026-04-03,23330.72,573.77,22756.95,Settled,MATCHED,Processor amount matches internal expectation.
+SET50231,M007,HomeEase Services,2026-04-04,32307.33,991.19,31316.6,Settled,MATCHED,Processor amount matches internal expectation.
+SET50232,M007,HomeEase Services,2026-04-05,55712.9,1407.05,54305.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50233,M007,HomeEase Services,2026-04-06,38927.33,1133.23,37794.1,Settled,MATCHED,Processor amount matches internal expectation.
+SET50234,M007,HomeEase Services,2026-04-07,67761.15,1654.76,66106.39,Settled,MATCHED,Processor amount matches internal expectation.
+SET50235,M007,HomeEase Services,2026-04-08,31829.28,825.4,31005.45,Settled,MATCHED,Processor amount matches internal expectation.
+SET50236,M007,HomeEase Services,2026-04-09,46070.54,1216.22,44854.32,Settled,MATCHED,Processor amount matches internal expectation.
+SET50237,M007,HomeEase Services,2026-04-10,44120.56,2257.87,41863.23,Settled,MATCHED,Processor amount matches internal expectation.
+SET50238,M007,HomeEase Services,2026-04-11,20710.37,498.65,20211.72,Settled,MATCHED,Processor amount matches internal expectation.
+SET50239,M007,HomeEase Services,2026-04-12,21988.04,4176.68,17811.36,Settled,MATCHED,Processor amount matches internal expectation.
+SET50240,M007,HomeEase Services,2026-04-13,14260.86,456.34,13804.52,Settled,MATCHED,Processor amount matches internal expectation.
+SET50241,M007,HomeEase Services,2026-04-14,23300.38,655.07,22645.75,Settled,MATCHED,Processor amount matches internal expectation.
+SET50242,M007,HomeEase Services,2026-04-15,36467.09,2282.14,34186.35,Settled,MATCHED,Processor amount matches internal expectation.
+SET50243,M007,HomeEase Services,2026-04-16,21377.87,479.29,20899.53,Settled,MATCHED,Processor amount matches internal expectation.
+SET50244,M007,HomeEase Services,2026-04-17,48131.83,3259.22,44872.61,Settled,MATCHED,Processor amount matches internal expectation.
+SET50245,M007,HomeEase Services,2026-04-18,62601.96,6654.54,55947.42,Settled,MATCHED,Processor amount matches internal expectation.
+SET50246,M007,HomeEase Services,2026-04-19,31323.19,902.73,30420.46,Settled,MATCHED,Processor amount matches internal expectation.
+SET50247,M007,HomeEase Services,2026-04-20,29889.04,719.59,29169.45,Settled,MATCHED,Processor amount matches internal expectation.
+SET50248,M007,HomeEase Services,2026-04-21,39634.78,943.14,38692.89,Settled,MATCHED,Processor amount matches internal expectation.
+SET50249,M007,HomeEase Services,2026-04-22,20520.3,3091.66,17429.12,Settled,MATCHED,Processor amount matches internal expectation.
+SET50250,M007,HomeEase Services,2026-04-23,50503.03,10643.37,39861.49,Settled,MATCHED,Processor amount matches internal expectation.
+SET50251,M007,HomeEase Services,2026-04-24,24403.37,7210.54,17192.83,Settled,MATCHED,Processor amount matches internal expectation.
+SET50252,M007,HomeEase Services,2026-04-25,19442.63,471.27,18971.36,Settled,MATCHED,Processor amount matches internal expectation.
+SET50253,M007,HomeEase Services,2026-04-26,40946.39,1041.14,39905.25,Settled,MATCHED,Processor amount matches internal expectation.
+SET50254,M007,HomeEase Services,2026-04-27,26066.39,4272.08,21795.6,Settled,MATCHED,Processor amount matches internal expectation.
+SET50255,M007,HomeEase Services,2026-04-28,8270.47,242.57,8027.9,Settled,MATCHED,Processor amount matches internal expectation.
+SET50256,M007,HomeEase Services,2026-04-29,39549.97,1132.62,38418.4,Settled,MATCHED,Processor amount matches internal expectation.
+SET50257,M007,HomeEase Services,2026-04-30,19305.94,516.31,18789.63,Settled,MATCHED,Processor amount matches internal expectation.
+SET50258,M007,HomeEase Services,2026-05-01,38464.66,4888.79,33575.9,Settled,MATCHED,Processor amount matches internal expectation.
+SET50259,M007,HomeEase Services,2026-05-02,22041.54,10541.54,11500.0,Settled,MATCHED,Processor amount matches internal expectation.
+SET50260,M007,HomeEase Services,2026-05-03,19294.68,432.59,18862.6,Settled,MATCHED,Processor amount matches internal expectation.
+SET50261,M007,HomeEase Services,2026-05-04,47666.95,8089.59,39578.31,Settled,MATCHED,Processor amount matches internal expectation.
+SET50262,M007,HomeEase Services,2026-05-05,25944.82,651.42,25293.4,Settled,MATCHED,Processor amount matches internal expectation.
+SET50263,M007,HomeEase Services,2026-05-06,48484.26,2541.08,45943.65,Settled,MATCHED,Processor amount matches internal expectation.
+SET50264,M007,HomeEase Services,2026-05-07,45040.69,1278.39,43762.3,Settled,MATCHED,Processor amount matches internal expectation.
+SET50265,M007,HomeEase Services,2026-05-14,0.0,6263.06,-6263.06,Settled,MATCHED,Processor amount matches internal expectation.
+SET50266,M007,HomeEase Services,2026-05-15,0.0,4743.13,-4742.92,Settled,MATCHED,Processor amount matches internal expectation.
+SET50267,M007,HomeEase Services,2026-05-16,0.0,895.27,-894.55,Settled,MATCHED,Processor amount matches internal expectation.
+SET50268,M008,FinEdge SaaS,2026-04-03,55556.88,1302.77,54254.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50269,M008,FinEdge SaaS,2026-04-04,24912.88,595.99,24316.89,Settled,MATCHED,Processor amount matches internal expectation.
+SET50270,M008,FinEdge SaaS,2026-04-05,24920.62,1975.64,22946.19,Settled,MATCHED,Processor amount matches internal expectation.
+SET50271,M008,FinEdge SaaS,2026-04-06,19332.05,512.79,18819.26,Settled,MATCHED,Processor amount matches internal expectation.
+SET50272,M008,FinEdge SaaS,2026-04-07,21382.76,1525.42,19857.34,Settled,REFUND_ADJ,Processor deducted a late refund adjustment not present in the internal refund file cutoff.
+SET50273,M008,FinEdge SaaS,2026-04-08,21248.43,2261.79,18986.97,Settled,MATCHED,Processor amount matches internal expectation.
+SET50274,M008,FinEdge SaaS,2026-04-09,39107.12,1025.46,38081.66,Settled,MATCHED,Processor amount matches internal expectation.
+SET50275,M008,FinEdge SaaS,2026-04-10,32513.08,7817.59,24695.49,Settled,MATCHED,Processor amount matches internal expectation.
+SET50276,M008,FinEdge SaaS,2026-04-11,17722.37,410.62,17311.81,Settled,MATCHED,Processor amount matches internal expectation.
+SET50277,M008,FinEdge SaaS,2026-04-12,25737.94,629.93,25108.01,Settled,MATCHED,Processor amount matches internal expectation.
+SET50278,M008,FinEdge SaaS,2026-04-13,54651.46,1290.09,53361.37,Settled,MATCHED,Processor amount matches internal expectation.
+SET50279,M008,FinEdge SaaS,2026-04-14,54834.75,6608.21,48226.54,Settled,MATCHED,Processor amount matches internal expectation.
+SET50280,M008,FinEdge SaaS,2026-04-15,16773.59,3057.25,13716.34,Settled,MATCHED,Processor amount matches internal expectation.
+SET50281,M008,FinEdge SaaS,2026-04-16,18717.61,439.6,18278.01,Settled,MATCHED,Processor amount matches internal expectation.
+SET50282,M008,FinEdge SaaS,2026-04-17,16445.38,1309.59,15135.79,Settled,CHARGEBACK_ADJ,Chargeback debit applied after dispute update from issuing bank.
+SET50283,M008,FinEdge SaaS,2026-04-18,28503.3,7522.13,20982.39,Settled,MATCHED,Processor amount matches internal expectation.
+SET50284,M008,FinEdge SaaS,2026-04-19,46694.84,1030.53,45664.98,Settled,MATCHED,Processor amount matches internal expectation.
+SET50285,M008,FinEdge SaaS,2026-04-20,33426.19,834.12,32593.02,Settled,MATCHED,Processor amount matches internal expectation.
+SET50286,M008,FinEdge SaaS,2026-04-21,29039.87,622.73,28417.14,Settled,MATCHED,Processor amount matches internal expectation.
+SET50287,M008,FinEdge SaaS,2026-04-22,36728.05,868.84,35860.91,Settled,MATCHED,Processor amount matches internal expectation.
+SET50288,M008,FinEdge SaaS,2026-04-23,32632.01,8453.29,24178.72,Settled,FEE_REVISION,Additional gateway fee and pricing revision applied by the processor.
+SET50289,M008,FinEdge SaaS,2026-04-24,37932.44,1056.83,36875.61,Settled,MATCHED,Processor amount matches internal expectation.
+SET50290,M008,FinEdge SaaS,2026-04-25,17400.64,458.72,16941.92,Settled,MATCHED,Processor amount matches internal expectation.
+SET50291,M008,FinEdge SaaS,2026-04-26,33695.96,1184.92,32511.04,Settled,FEE_REVISION,Additional gateway fee and pricing revision applied by the processor.
+SET50292,M008,FinEdge SaaS,2026-04-27,40993.95,1072.25,39921.7,Settled,MATCHED,Processor amount matches internal expectation.
+SET50293,M008,FinEdge SaaS,2026-04-28,19966.77,459.88,19506.89,Settled,MATCHED,Processor amount matches internal expectation.
+SET50294,M008,FinEdge SaaS,2026-04-29,24870.4,4947.62,19923.44,Settled,MATCHED,Processor amount matches internal expectation.
+SET50295,M008,FinEdge SaaS,2026-04-30,35043.08,1008.61,34034.75,Settled,MATCHED,Processor amount matches internal expectation.
+SET50296,M008,FinEdge SaaS,2026-05-01,31710.81,761.7,30950.76,Settled,MATCHED,Processor amount matches internal expectation.
+SET50297,M008,FinEdge SaaS,2026-05-02,41009.6,2459.18,38550.42,Settled,MATCHED,Processor amount matches internal expectation.
+SET50298,M008,FinEdge SaaS,2026-05-03,44013.37,1155.5,42858.39,Settled,MATCHED,Processor amount matches internal expectation.
+SET50299,M008,FinEdge SaaS,2026-05-04,11905.36,338.45,11568.46,Settled,MATCHED,Processor amount matches internal expectation.
+SET50300,M008,FinEdge SaaS,2026-05-05,64205.0,1741.79,62463.21,Settled,MATCHED,Processor amount matches internal expectation.
+SET50301,M008,FinEdge SaaS,2026-05-06,8594.95,193.1,8401.85,Settled,MATCHED,Processor amount matches internal expectation.
+SET50302,M008,FinEdge SaaS,2026-05-07,25657.73,580.21,25077.52,Settled,MATCHED,Processor amount matches internal expectation.
+SET50303,M008,FinEdge SaaS,2026-05-08,0.0,6122.07,-6121.84,Settled,MATCHED,Processor amount matches internal expectation.
+SET50304,M008,FinEdge SaaS,2026-05-09,0.0,5431.66,-5431.66,Settled,MATCHED,Processor amount matches internal expectation.
+SET50305,M008,FinEdge SaaS,2026-05-10,0.0,3619.9,-3618.75,Settled,MATCHED,Processor amount matches internal expectation.
+SET50306,M008,FinEdge SaaS,2026-05-18,0.0,5986.8,-5985.16,Settled,MATCHED,Processor amount matches internal expectation.
+SET50307,M008,FinEdge SaaS,2026-05-19,0.0,1346.24,-1346.24,Settled,MATCHED,Processor amount matches internal expectation.

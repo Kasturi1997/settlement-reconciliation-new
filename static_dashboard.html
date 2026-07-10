@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Settlement Reconciliation Exception Agent</title>
+  <style>
+    :root {
+      --ink: #172026;
+      --muted: #66737f;
+      --line: #d9e1e7;
+      --paper: #f6f8fa;
+      --panel: #ffffff;
+      --teal: #006d77;
+      --teal-soft: #d8f3f0;
+      --gold: #b7791f;
+      --red: #b42318;
+      --green: #13795b;
+      --blue: #1d4ed8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+    }
+    header {
+      background: #0f2f35;
+      color: #fff;
+      padding: 38px 5vw 32px;
+      border-bottom: 6px solid #f2b84b;
+    }
+    header p {
+      color: #d8ecef;
+      max-width: 900px;
+      margin: 8px 0 0;
+      font-size: 17px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    h2 { margin: 0 0 16px; font-size: 22px; }
+    h3 { margin: 8px 0 8px; font-size: 16px; }
+    main {
+      width: min(1180px, 92vw);
+      margin: 28px auto 60px;
+    }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    .metric, .panel, .memo-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(15, 47, 53, 0.06);
+    }
+    .metric { padding: 16px; min-height: 118px; }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 8px;
+      font-size: clamp(20px, 2vw, 30px);
+      letter-spacing: 0;
+    }
+    .metric small { color: var(--muted); }
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+    .panel { padding: 20px; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 150px 1fr 34px;
+      align-items: center;
+      gap: 10px;
+      margin: 12px 0;
+    }
+    .bar-label { font-size: 13px; color: var(--ink); }
+    .bar-track {
+      background: #e9eef2;
+      height: 12px;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .bar-fill { height: 100%; background: var(--teal); border-radius: 999px; }
+    .bar-value { text-align: right; font-weight: 700; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 10px 8px;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: #fbfcfd;
+    }
+    .memo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .memo-card { padding: 16px; }
+    .memo-card p { margin: 0; color: #34434f; }
+    .memo-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .memo-top strong {
+      color: var(--red);
+      background: #fff0ed;
+      border: 1px solid #ffd1ca;
+      padding: 3px 8px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .negative { color: var(--red); font-weight: 700; }
+    .positive { color: var(--green); font-weight: 700; }
+    .muted { color: var(--muted); }
+    .section { margin-top: 20px; }
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 28px;
+    }
+    @media (max-width: 920px) {
+      .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .layout, .memo-grid { grid-template-columns: 1fr; }
+      .bar-row { grid-template-columns: 112px 1fr 30px; }
+      table { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Settlement Reconciliation Exception Agent</h1>
+    <p>Merchant settlement control dashboard built on synthetic order, payment, refund, fee, GST, settlement, and payout data.</p>
+  </header>
+  <main>
+    <section class="metric-grid">
+      <div class="metric"><span>Expected Settlement</span><strong>INR 9,646,926</strong><small>Calculated from internal data</small></div>
+      <div class="metric"><span>Actual Settlement</span><strong>INR 9,536,892</strong><small>Simulated processor payout</small></div>
+      <div class="metric"><span>Net Variance</span><strong>INR -110,034</strong><small>Actual minus expected</small></div>
+      <div class="metric"><span>Exceptions</span><strong>12</strong><small>3.9% of settlement rows</small></div>
+      <div class="metric"><span>High Priority</span><strong>2</strong><small>Needs immediate review</small></div>
+    </section>
+
+    <section class="layout">
+      <div class="panel">
+        <h2>Exceptions By Type</h2>
+        <div class='bar-row'><div class='bar-label'>Settlement Delay</div><div class='bar-track'><div class='bar-fill' style='width:100.0%'></div></div><div class='bar-value'>2</div></div>
+<div class='bar-row'><div class='bar-label'>Chargeback</div><div class='bar-track'><div class='bar-fill' style='width:100.0%'></div></div><div class='bar-value'>2</div></div>
+<div class='bar-row'><div class='bar-label'>Refund Adjustment</div><div class='bar-track'><div class='bar-fill' style='width:100.0%'></div></div><div class='bar-value'>2</div></div>
+<div class='bar-row'><div class='bar-label'>Fee Deduction</div><div class='bar-track'><div class='bar-fill' style='width:100.0%'></div></div><div class='bar-value'>2</div></div>
+<div class='bar-row'><div class='bar-label'>GST / Tax Difference</div><div class='bar-track'><div class='bar-fill' style='width:100.0%'></div></div><div class='bar-value'>2</div></div>
+<div class='bar-row'><div class='bar-label'>Failed Capture</div><div class='bar-track'><div class='bar-fill' style='width:50.0%'></div></div><div class='bar-value'>1</div></div>
+<div class='bar-row'><div class='bar-label'>Excess Settlement</div><div class='bar-track'><div class='bar-fill' style='width:50.0%'></div></div><div class='bar-value'>1</div></div>
+      </div>
+      <div class="panel">
+        <h2>Exceptions By Priority</h2>
+        <div class='bar-row'><div class='bar-label'>Low</div><div class='bar-track'><div class='bar-fill' style='width:100.0%'></div></div><div class='bar-value'>10</div></div>
+<div class='bar-row'><div class='bar-label'>High</div><div class='bar-track'><div class='bar-fill' style='width:20.0%'></div></div><div class='bar-value'>2</div></div>
+      </div>
+    </section>
+
+    <section class="panel section">
+      <h2>Top Exceptions</h2>
+      <table><thead><tr><th>Merchant Name</th><th>Settlement Date</th><th>Exception Type</th><th>Risk Priority</th><th>Expected Settlement Amount</th><th>Actual Settlement Amount</th><th>Variance Amount</th></tr></thead><tbody><tr><td>Apex Electronics</td><td>2026-04-16</td><td>Settlement Delay</td><td>High</td><td>INR 67,956</td><td>INR 0</td><td>INR -67,956</td></tr><tr><td>UrbanStyle Apparel</td><td>2026-04-17</td><td>Settlement Delay</td><td>High</td><td>INR 33,639</td><td>INR 0</td><td>INR -33,639</td></tr><tr><td>TravelNest</td><td>2026-05-04</td><td>Chargeback</td><td>Low</td><td>INR 40,858</td><td>INR 38,058</td><td>INR -2,800</td></tr><tr><td>SkillBridge Learning</td><td>2026-04-24</td><td>Failed Capture</td><td>Low</td><td>INR 93,734</td><td>INR 91,000</td><td>INR -2,734</td></tr><tr><td>UrbanStyle Apparel</td><td>2026-04-18</td><td>Refund Adjustment</td><td>Low</td><td>INR 43,650</td><td>INR 42,059</td><td>INR -1,591</td></tr><tr><td>TravelNest</td><td>2026-04-27</td><td>Excess Settlement</td><td>Low</td><td>INR 73,080</td><td>INR 74,546</td><td>INR 1,466</td></tr><tr><td>FinEdge SaaS</td><td>2026-04-17</td><td>Chargeback</td><td>Low</td><td>INR 16,115</td><td>INR 15,136</td><td>INR -980</td></tr><tr><td>FinEdge SaaS</td><td>2026-04-07</td><td>Refund Adjustment</td><td>Low</td><td>INR 20,769</td><td>INR 19,857</td><td>INR -912</td></tr><tr><td>FinEdge SaaS</td><td>2026-04-26</td><td>Fee Deduction</td><td>Low</td><td>INR 32,809</td><td>INR 32,511</td><td>INR -298</td></tr><tr><td>FinEdge SaaS</td><td>2026-04-23</td><td>Fee Deduction</td><td>Low</td><td>INR 24,429</td><td>INR 24,179</td><td>INR -250</td></tr><tr><td>SkillBridge Learning</td><td>2026-04-09</td><td>GST / Tax Difference</td><td>Low</td><td>INR 78,956</td><td>INR 78,755</td><td>INR -200</td></tr><tr><td>FreshBasket Foods</td><td>2026-04-26</td><td>GST / Tax Difference</td><td>Low</td><td>INR 21,538</td><td>INR 21,418</td><td>INR -120</td></tr></tbody></table>
+    </section>
+
+    <section class="section">
+      <h2>Investigation Memos</h2>
+      <div class="memo-grid">
+        <article class='memo-card'><div class='memo-top'><span>Settlement Delay</span><strong>High</strong></div><h3>Apex Electronics | 2026-04-16</h3><p>Apex Electronics was short-settled on 2026-04-16. Expected INR 67,955.78, actual INR 0.00, variance INR -67,955.78. Likely reason: Settlement Delay. Processor note: Payout delayed due to processor settlement hold. Suggested action: Check processor SLA, payout UTR, bank return file, and whether the amount is held for risk review.</p></article>
+<article class='memo-card'><div class='memo-top'><span>Settlement Delay</span><strong>High</strong></div><h3>UrbanStyle Apparel | 2026-04-17</h3><p>UrbanStyle Apparel was short-settled on 2026-04-17. Expected INR 33,639.03, actual INR 0.00, variance INR -33,639.03. Likely reason: Settlement Delay. Processor note: Payout delayed due to processor settlement hold. Suggested action: Check processor SLA, payout UTR, bank return file, and whether the amount is held for risk review.</p></article>
+<article class='memo-card'><div class='memo-top'><span>Chargeback</span><strong>Low</strong></div><h3>TravelNest | 2026-05-04</h3><p>TravelNest was short-settled on 2026-05-04. Expected INR 40,857.85, actual INR 38,057.83, variance INR -2,800.02. Likely reason: Chargeback. Processor note: Chargeback debit applied after dispute update from issuing bank. Suggested action: Validate dispute reference, issuing bank update, and whether the chargeback was already booked internally.</p></article>
+<article class='memo-card'><div class='memo-top'><span>Failed Capture</span><strong>Low</strong></div><h3>SkillBridge Learning | 2026-04-24</h3><p>SkillBridge Learning was short-settled on 2026-04-24. Expected INR 93,733.85, actual INR 90,999.72, variance INR -2,734.13. Likely reason: Failed Capture. Processor note: One captured transaction was reversed by gateway before payout. Suggested action: Verify gateway capture logs and confirm whether the order was reversed before payout.</p></article>
+<article class='memo-card'><div class='memo-top'><span>Refund Adjustment</span><strong>Low</strong></div><h3>UrbanStyle Apparel | 2026-04-18</h3><p>UrbanStyle Apparel was short-settled on 2026-04-18. Expected INR 43,649.64, actual INR 42,058.83, variance INR -1,590.81. Likely reason: Refund Adjustment. Processor note: Processor deducted a late refund adjustment not present in the internal refund file cutoff. Suggested action: Match refund ID, order ID, refund posting date, and processor cutoff timing.</p></article>
+<article class='memo-card'><div class='memo-top'><span>Excess Settlement</span><strong>Low</strong></div><h3>TravelNest | 2026-04-27</h3><p>TravelNest was over-settled on 2026-04-27. Expected INR 73,079.65, actual INR 74,545.53, variance INR 1,465.88. Likely reason: Excess Settlement. Processor note: Prior held settlement released in the current payout cycle. Suggested action: Check whether a previous hold or delayed payout was released in this cycle.</p></article>
+      </div>
+    </section>
+
+    <section class="panel section">
+      <h2>Merchant Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Merchant</th>
+            <th>Category</th>
+            <th>Settlement Days</th>
+            <th>Exceptions</th>
+            <th>Exception Rate</th>
+            <th>Total Variance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>FinEdge SaaS</td><td>SaaS</td><td>40</td><td>4</td><td>10.0%</td><td class='negative'>INR -2,444</td></tr>
+<tr><td>UrbanStyle Apparel</td><td>Apparel</td><td>38</td><td>2</td><td>5.3%</td><td class='negative'>INR -35,244</td></tr>
+<tr><td>SkillBridge Learning</td><td>EdTech</td><td>39</td><td>2</td><td>5.1%</td><td class='negative'>INR -2,939</td></tr>
+<tr><td>TravelNest</td><td>Travel</td><td>37</td><td>2</td><td>5.4%</td><td class='negative'>INR -1,335</td></tr>
+<tr><td>Apex Electronics</td><td>Electronics</td><td>37</td><td>1</td><td>2.7%</td><td class='negative'>INR -67,951</td></tr>
+<tr><td>FreshBasket Foods</td><td>Grocery</td><td>38</td><td>1</td><td>2.6%</td><td class='negative'>INR -121</td></tr>
+<tr><td>HomeEase Services</td><td>Home Services</td><td>38</td><td>0</td><td>0.0%</td><td class='negative'>INR -1</td></tr>
+<tr><td>MediQuick Pharmacy</td><td>Healthcare</td><td>40</td><td>0</td><td>0.0%</td><td class='negative'>INR -0</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <footer>
+      Synthetic data only. Generated for a finance, banking, analytics, and GenAI portfolio project.
+    </footer>
+  </main>
+</body>
+</html>

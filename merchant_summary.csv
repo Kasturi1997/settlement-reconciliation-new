@@ -1,0 +1,9 @@
+merchant_id,merchant_name,category,settlement_days,expected_settlement_amount,actual_settlement_amount,total_variance_amount,exception_count,high_priority_count,exception_rate
+M008,FinEdge SaaS,SaaS,40,1000319.49,997875.99,-2443.5,4,0,0.1
+M003,UrbanStyle Apparel,Apparel,38,945274.99,910031.44,-35243.55,2,1,0.0526
+M004,SkillBridge Learning,EdTech,39,1553731.85,1550792.4,-2939.45,2,0,0.0513
+M006,TravelNest,Travel,37,1975963.77,1974629.2,-1334.57,2,0,0.0541
+M001,Apex Electronics,Electronics,37,2134370.01,2066419.47,-67950.54,1,1,0.027
+M002,FreshBasket Foods,Grocery,38,309141.29,309020.23,-121.06,1,0,0.0263
+M007,HomeEase Services,Home Services,38,1085673.37,1085672.16,-1.21,0,0,0.0
+M005,MediQuick Pharmacy,Healthcare,40,642451.01,642450.83,-0.18,0,0,0.0

@@ -1,0 +1,9 @@
+merchant_id,merchant_name,category,platform_fee_rate,settlement_tplus_days,merchant_city,gst_rate,status
+M001,Apex Electronics,Electronics,0.018,2,Bengaluru,0.18,Active
+M002,FreshBasket Foods,Grocery,0.014,1,Mumbai,0.18,Active
+M003,UrbanStyle Apparel,Apparel,0.02,2,Delhi,0.18,Active
+M004,SkillBridge Learning,EdTech,0.016,3,Pune,0.18,Active
+M005,MediQuick Pharmacy,Healthcare,0.012,1,Hyderabad,0.18,Active
+M006,TravelNest,Travel,0.022,3,Gurugram,0.18,Active
+M007,HomeEase Services,Home Services,0.017,2,Chennai,0.18,Active
+M008,FinEdge SaaS,SaaS,0.015,2,Kolkata,0.18,Active
