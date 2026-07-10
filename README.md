@@ -118,24 +118,7 @@ Processed files:
 - `exceptions.csv`
 - `merchant_summary.csv`
 
-## Interview Talking Points
 
-**Why did you build this?**  
-To show how my credit, banking, finance, and analytics background can be applied
-to fintech operations and GenAI-style workflow automation.
-
-**Why use synthetic data?**  
-Real payment and settlement data is confidential. Synthetic data lets me model
-the business workflow without exposing customer or merchant information.
-
-**Where can GenAI be added later?**  
-The current memo generator is rule based for auditability. A future version can
-use an LLM to draft richer investigation notes, summarize uploaded processor
-files, or answer analyst questions over reconciliation data.
-
-**What makes this useful for a business?**  
-It reduces manual checking, prioritizes high-risk exceptions, and gives an
-operations team a starting memo for investigation.
 
 ## Disclaimer
 
